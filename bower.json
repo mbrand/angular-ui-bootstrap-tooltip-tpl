@@ -1,0 +1,33 @@
+{
+	"name": "angular-ui-bootstrap-tooltip-tpl",
+	"version": "1.0.0",
+	"authors": [
+		"mbrand.obb@googlemail.com"
+	],
+	"description": "Directive to enable usage of template files for simple ui-bootstrap tooltips.",
+	"keywords": [
+		"angular",
+		"AngularJS",
+		"ui-bootstrap",
+		"ui",
+		"bootstrap",
+		"tooltip",
+		"templates"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"angular":"~1.2.0",
+		"angular-animate":"~1.2.0",
+		"angular-sanitize":"~1.2.0",
+		"angular-touch":"~1.2.0"
+	},
+	"devDependencies": {
+	}
+}
