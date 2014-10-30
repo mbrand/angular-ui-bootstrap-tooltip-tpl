@@ -1,27 +1,26 @@
 {
-	"name": "angular-ui-bootstrap-tooltip-tpl-demo",
-	"version": "0.0.0",
-	"authors": [
-		"mbrand.obb@googlemail.com"
-	],
-	"description": "Demo",
-	"keywords": [
-	],
-	"license": "MIT",
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components",
-		"test",
-		"tests"
-	],
-	"dependencies": {
-		"angular":"~1.2.0",
-		"angular-animate":"~1.2.0",
-		"angular-sanitize":"~1.2.0",
-		"angular-touch":"~1.2.0",
-		"angular-route":"~1.2.0"
-	},
-	"devDependencies": {
-	}
+  "name": "angular-ui-bootstrap-tooltip-tpl",
+  "version": "0.0.1",
+  "authors": [
+    "mbrand.obb@googlemail.com"
+  ],
+  "description": "Templates for Angular UI Bootstrap Tooltips",
+  "keywords": [],
+  "license": "MIT",
+  "main": "ui-bootstrap-tooltip-tpl.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.0",
+    "angular-animate": "~1.3.0",
+    "angular-bootstrap": "~0.11.0",
+    "jquery": "~1.11.0",
+    "bootstrap": "~3.2.0"
+  },
+  "devDependencies": {}
 }
