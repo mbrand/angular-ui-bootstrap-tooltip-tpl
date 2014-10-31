@@ -1,25 +1,23 @@
-# Directive to enable usage of template files for simple ui-bootstrap tooltips.
-
-[TODO - brief summary]
-
+# Directive to enable usage of template files for simple ui-bootstrap tooltips
 ## Demo
 http://mbrand.github.io/angular-ui-bootstrap-tooltip-tpl/
 
 ## Dependencies
 - required:
-	[TODO]
-- optional
-	[TODO]
+    - Angular (1.3.x)
+	- UI Bootstrap (>= 0.11.2)
+
 
 See `bower.json` and `index.html` in the `gh-pages` branch for a full list / more details
 
 ## Install
 1. download the files
 	1. Bower
-		1. add `"angular-ui-bootstrap-tooltip-tpl": "latest"` to your `bower.json` file then run `bower install` OR run `bower install angular-ui-bootstrap-tooltip-tpl`
+		1. add `"angular-ui-bootstrap-tooltip-tpl": "mbrand/angular-ui-bootstrap-tooltip-tpl"` to
+		 your `bower.json` file then run `bower install` OR run `bower install
+		 angular-ui-bootstrap-tooltip-tpl`
 2. include the files in your app
 	1. `ui-bootstrap-tooltip-tpl.min.js`
-	2. `ui-bootstrap-tooltip-tpl.less` OR `ui-bootstrap-tooltip-tpl.min.css` OR `ui-bootstrap-tooltip-tpl.css`
 3. include the module in angular (i.e. in `app.js`) - `mbrand.angular-ui-bootstrap-tooltip-tpl`
 
 See the `gh-pages` branch, files `bower.json` and `index.html` for a full example.
