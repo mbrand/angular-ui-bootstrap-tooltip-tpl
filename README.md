@@ -1,4 +1,7 @@
-# Directive to enable usage of template files for simple ui-bootstrap tooltips
+# Templates for Angular UI Bootstrap Tooltips
+
+Directive to enable usage of template files for simple ui-bootstrap tooltips.
+
 ## Demo
 http://mbrand.github.io/angular-ui-bootstrap-tooltip-tpl/
 
