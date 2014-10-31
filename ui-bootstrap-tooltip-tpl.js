@@ -74,7 +74,7 @@ angular.module( 'mbrand.angular-ui-bootstrap-tooltip-tpl', ['ui.bootstrap'] )
                 $http.get( tplUrl, {cache: $templateCache} )
                   .success( function ( tplContent )
                   {
-                    var tpl = $compile( tplContent.trim() )( scope );
+                    var tpl = $compile( '<div>' + tplContent.trim() + '</div>' )( scope );
                     $timeout( function ()
                     {
                       scope.__tooltip = tpl.html();
