@@ -2,6 +2,7 @@
 
 angular.module( 'myApp', [
   'ngAnimate',		//additional angular modules
+  'ngRoute',		//additional angular modules
   'mbrand.angular-ui-bootstrap-tooltip-tpl'
 ] )
   .config( [
