@@ -28,8 +28,7 @@ See the `gh-pages` branch, files `bower.json` and `index.html` for a full exampl
 
 ## Documentation
 See the `ui-bootstrap-tooltip-tpl.js` file top comments for usage examples and documentation
-https://github.com/mbrand/angular-ui-bootstrap-tooltip-tpl/blob/master/ui-bootstrap-tooltip-tpl.js
-
+https://github.com/mbrand/angular-ui-bootstrap-tooltip-tpl/blob/gh-pages/ui-bootstrap-tooltip-tpl.js
 
 ## Development
 
