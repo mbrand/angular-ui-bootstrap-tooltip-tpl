@@ -7,8 +7,9 @@ http://mbrand.github.io/angular-ui-bootstrap-tooltip-tpl/
 
 ## Dependencies
 - required:
-    - Angular (1.3.x)
-	- UI Bootstrap (>= 0.11.2)
+    - Angular (>= 1.3.0)
+    - UI Bootstrap (>= 0.11.2)
+    - Bootstrap (>= 3.0.0)
 
 
 See `bower.json` and `index.html` in the `gh-pages` branch for a full list / more details
