@@ -99,7 +99,10 @@ angular.module( 'mbrand.angular-ui-bootstrap-tooltip-tpl', ['ui.bootstrap'] )
                */
               function templateLoadingProxy( old, newV, $scope )
               {
-                scope[attrs.mibTooltipScope] = $scope.mibTooltipScope;
+                var scopeName = attrs.mibTooltipScope.split( "." );
+                scopeName = scopeName[scopeName.length - 1];
+
+                scope[scopeName] = $scope.mibTooltipScope;
                 loadAndBindTemplate();
               }
 

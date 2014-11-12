@@ -7,13 +7,13 @@ angular.module( 'myApp' ).controller( 'HomeCtrl', [
   '$scope', function ( $scope )
   {
     var count = 0;
-    $scope.things = ['first-thing', 'second-thing', 'third-thing'];
+    $scope.something = {};
+    $scope.something.things = ['first-thing', 'second-thing', 'third-thing'];
 
     $scope.addSome = function ()
     {
       count++;
-      $scope.things.push( 'another-thing-' + count );
-      console.log( $scope.things );
+      $scope.something.things.push( 'another-thing-' + count );
     };
 
     $scope.thing = {
@@ -26,9 +26,26 @@ angular.module( 'myApp' ).controller( 'HomeCtrl', [
     {
       thingCount++;
       $scope.thing['another' + thingCount] = 'another ' + thingCount;
-      console.log( $scope.thing );
+    };
+
+    $scope.repeatedObj = [
+      {
+        thing1: 'thing-1'
+      }
+    ];
+    var repeatedCount = 1;
+
+    $scope.addToRepeated = function ()
+    {
+      repeatedCount++;
+
+      var temp = {};
+      temp ['thing' + repeatedCount] = 'thing-' + repeatedCount;
+
+      $scope.repeatedObj.push( temp )
 
     };
+
 
   }
 ] );
